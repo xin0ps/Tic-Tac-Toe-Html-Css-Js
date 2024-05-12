@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#h1{
+   
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.gameboard {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr); 
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    gap: 4px;
+}
+
+.board:hover{
+    background-color: gray;
+}
+
+.board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    border: 1px solid;
+    border-color: gray;
+    border-radius: 2px ;
+}
